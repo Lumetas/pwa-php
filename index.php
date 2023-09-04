@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/styles.css?v=1.0">
      <script src="pwa/pwalib.php?js"></script>
 </head>
-<body>
+<body onclick='installEvent.prompt();'>
      <script>//setInterval("installEvent.prompt();", 1000)</script>
 </body>
 </html>
