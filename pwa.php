@@ -50,7 +50,7 @@ class PWA
 
   public function set_property($property, $value, $entity = "manifest")
   {
-    $this[$entity][$property] = $value;
+     $this->$entity->$property = $value;
   }
 
   public function include_manifest()
